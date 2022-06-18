@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="923b122b-1072-43bb-a80e-94d3892b73b5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/CalculateVector2DDistanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/CalculateVector2DDistanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Vector2DCanvasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Vector2DCanvasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/calculate-vector2d-distance.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/calculate-vector2d-distance.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/vector2d-canvas.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/vector2d-canvas.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -11,6 +11,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Spinner;
 import javafx.scene.paint.Color;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -44,6 +45,11 @@ public class Vector2DCanvasController implements Initializable
 
     @FXML
     private ComboBox<Vector2D> startVectorComboBox;
+
+    @FXML
+    void calculateVector2DButtonClicked(ActionEvent event) throws IOException {
+        SceneManager.Instance().changeScene(event, "calculate-vector2d-distance.fxml");
+    }
 
     @FXML
     void circleFilledCheckBoxChanged(ActionEvent event)
