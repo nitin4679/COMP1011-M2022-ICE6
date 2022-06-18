@@ -55,7 +55,7 @@
                   </Label>
                   <Label text="Line Width" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                   <Label text="Shape Color" GridPane.rowIndex="3" />
-                  <ColorPicker fx:id="shapeColorPicker" prefHeight="26.0" prefWidth="149.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <ColorPicker fx:id="shapeColorPicker" onAction="#shapeColorPickedChanged" prefHeight="26.0" prefWidth="149.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <value>
                         <Color />
                      </value>

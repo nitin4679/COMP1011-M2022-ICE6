@@ -56,6 +56,12 @@ public class Vector2DCanvasController implements Initializable
 
     }
     @FXML
+    void shapeColorPickedChanged(ActionEvent event)
+    {
+        color = shapeColorPicker.getValue();
+    }
+
+    @FXML
     void endVector2DComboBoxChanged(ActionEvent event) {
         end = endVectorComboBox.getSelectionModel().getSelectedItem();
     }
@@ -64,6 +70,7 @@ public class Vector2DCanvasController implements Initializable
     void startVector2DComboBoxChanged(ActionEvent event) {
         start = startVectorComboBox.getSelectionModel().getSelectedItem();
     }
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)
