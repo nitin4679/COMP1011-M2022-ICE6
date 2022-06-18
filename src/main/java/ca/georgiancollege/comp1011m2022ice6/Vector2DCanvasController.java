@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
 
 public class Vector2DCanvasController implements Initializable
 {
-    // class variables
+    // class variables(private data members)
     private Vector2D start = new Vector2D();
     private Vector2D end = new Vector2D();
     private Color color = Color.BLACK;
@@ -37,7 +37,8 @@ public class Vector2DCanvasController implements Initializable
     private ComboBox<Vector2D> startVectorComboBox;
 
     @FXML
-    void clearCanvasButtonClicked(ActionEvent event) {
+    void clearCanvasButtonClicked(ActionEvent event)
+    {
 
     }
 
@@ -47,7 +48,11 @@ public class Vector2DCanvasController implements Initializable
     }
 
     @FXML
-    void drawLineButtonClicked(ActionEvent event) {
+    void drawLineButtonClicked(ActionEvent event)
+    {
+        GraphicsContext context = canvas.getGraphicsContext2D();
+        line_width = lineWidthSpinner.getValue().floatValue();
+        Utility.Instance().DrawLine(context, color, line_width, start, end);
 
     }
 
@@ -84,11 +89,8 @@ public class Vector2DCanvasController implements Initializable
             endVectorComboBox.getItems().add(vector);
         }
 
-
+        // configured the Line Width Spinner
         Utility.Instance().ConfigureVector2DSpinner(lineWidthSpinner, 0.25, 10.0f, 1.0f, 0.25f);
-
-        //GraphicsContext context = canvas.getGraphicsContext2D();
-
 
     }
 }
