@@ -5,34 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923b122b-1072-43bb-a80e-94d3892b73b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/CalculateVector2DDistanceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/DBManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/SceneManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Vector2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Vector2DChartViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Vector2DTableViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/calculate-vector2d-distance.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/vector2d-chartview.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/vector2d-tableview.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Vector2DCanvasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ca/georgiancollege/comp1011m2022ice6/vector2d-canvas.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/georgiancollege/comp1011m2022ice6/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
