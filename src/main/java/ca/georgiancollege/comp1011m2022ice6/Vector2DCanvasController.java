@@ -39,7 +39,8 @@ public class Vector2DCanvasController implements Initializable
     @FXML
     void clearCanvasButtonClicked(ActionEvent event)
     {
-
+        GraphicsContext context = canvas.getGraphicsContext2D();
+        context.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
     }
 
     @FXML
